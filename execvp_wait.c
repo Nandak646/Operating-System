@@ -18,11 +18,11 @@ if(status==-1)
 printf("Terminated\n");
 exit(1);
 }
+}
 else
 {
 printf("Parent process\n");
 wait(NULL);
 printf("Done\n");
-}
 }
 }
